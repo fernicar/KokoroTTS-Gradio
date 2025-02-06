@@ -1,0 +1,116 @@
+{
+  "US": {
+    "category": "us",
+    "languageCode": "en-us",
+    "voices": [
+      {
+        "group": "af",
+        "voices": [
+          "af_alloy",
+          "af_aoede",
+          "af_bella",
+          "af_heart",
+          "af_jessica",
+          "af_kore",
+          "af_nicole",
+          "af_nova",
+          "af_river",
+          "af_sarah",
+          "af_sky"
+        ]
+      },
+      {
+        "group": "am",
+        "voices": [
+          "am_adam",
+          "am_echo",
+          "am_eric",
+          "am_fenrir",
+          "am_liam",
+          "am_michael",
+          "am_onyx",
+          "am_puck"
+        ]
+      }
+    ]
+  },
+  "GB": {
+    "category": "gb",
+    "languageCode": "en-gb",
+    "voices": [
+      {
+        "group": "b",
+        "voices": [
+          "bf_alice",
+          "bf_emma",
+          "bf_isabella",
+          "bf_lily",
+          "bm_daniel",
+          "bm_fable",
+          "bm_george",
+          "bm_lewis"
+        ]
+      }
+    ]
+  },
+  "FR": {
+    "category": "fr",
+    "languageCode": "fr-fr",
+    "voices": [
+      {
+        "group": "f",
+        "voices": [
+          "ff_siwis"
+        ]
+      }
+    ]
+  },
+  "IT": {
+    "category": "it",
+    "languageCode": "it",
+    "voices": [
+      {
+        "group": "i",
+        "voices": [
+          "if_sara",
+          "im_nicola"
+        ]
+      }
+    ]
+  },
+  "JP": {
+    "category": "jp",
+    "languageCode": "ja",
+    "voices": [
+      {
+        "group": "j",
+        "voices": [
+          "jf_alpha",
+          "jf_gongitsune",
+          "jf_nezumi",
+          "jf_tebukuro",
+          "jm_kumo"
+        ]
+      }
+    ]
+  },
+  "CN": {
+    "category": "cn",
+    "languageCode": "cmn",
+    "voices": [
+      {
+        "group": "z",
+        "voices": [
+          "zf_xiaobei",
+          "zf_xiaoni",
+          "zf_xiaoxiao",
+          "zf_xiaoyi",
+          "zm_yunjian",
+          "zm_yunxi",
+          "zm_yunxia",
+          "zm_yunyang"
+        ]
+      }
+    ]
+  }
+}
