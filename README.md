@@ -1,4 +1,4 @@
-# Kokoro Project
+# Kokoro TTS Gradio Project
 ![demoUI](https://raw.githubusercontent.com/MushroomFleet/KokoroTTS-Gradio/refs/heads/main/images/demo.png)
 
 This project is designed to process voice data using Python and various supporting files. It includes capabilities for voice data analysis and audio processing.
