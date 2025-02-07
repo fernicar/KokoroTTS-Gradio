@@ -77,7 +77,7 @@ def tts(text, speed, voice_choice):
     env["LANG"] = lang
 
     # Execute the command that generates audio.wav using the kokoro TTS model
-    process = subprocess.run(["uv", "run", "hello.py"], env=env, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    process = subprocess.run(["python.exe", "hello.py"], env=env, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
     if process.returncode != 0:
         return f"Error during TTS generation: {process.stderr}", None
 

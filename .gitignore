@@ -1,0 +1,9 @@
+.venv/
+venv/
+model/*
+!model/.gitkeep
+output/*
+!output/.gitkeep
+activate*
+.python-version
+pyproject.toml
