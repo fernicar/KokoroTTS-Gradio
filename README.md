@@ -1,7 +1,7 @@
 # Kokoro TTS Gradio Project
 ![demoUI](https://raw.githubusercontent.com/MushroomFleet/KokoroTTS-Gradio/refs/heads/main/images/demo.png)
 
-This project is designed to process voice data using Python and various supporting files. It includes capabilities for voice data analysis and audio processing.
+This project is designed to process voice data using Python and various supporting files. It includes capabilities for voice processing, audio analysis, and audio generation. The latest update introduces a new Blending feature that allows for the combination of two distinct voice profiles to generate unique speech outputs.
 
 ## Installation
 
@@ -22,7 +22,11 @@ You can run the application in several ways:
   Execute `run-cli.bat` from the command line to start the application in command-line mode.
 
 - **Gradio UI Mode:**  
-  Run the `kokoro-Gradio.py` script to launch the application with a graphical user interface powered by Gradio.
+  Run the `kokoro-Gradio.py` script to launch the application with a graphical user interface powered by Gradio. The Gradio interface now features two tabs:
+   - **Standard:**  
+     Use this tab to generate speech using a single, selected voice.
+   - **Blending:**  
+     This new tab allows you to blend two voices. Within the Blending tab, enter the desired text, set the speed, select two different voices, and choose a blend mode (currently "default"). The blending function combines the vocal styles of both selected voices equally (50/50) and generates a blended audio file saved in the `output/` directory with a timestamped filename (e.g., `blended_audio_YYYYMMDD_HHMMSS.wav`).
 
 - **Testing:**  
   For initial tests, you can run `hello.py` to check that the basic functionality is working.
@@ -35,8 +39,11 @@ You can run the application in several ways:
 - **Audio Handling:**  
   Processed audio outputs are saved in the `output/` directory. Check this folder for generated audio files after processing.
 
+- **Voice Blending:**  
+  With the addition of the Blending tab in the Gradio UI, you can now generate audio by blending two distinct voice profiles. The process involves selecting Voice 1 and Voice 2, entering your desired text and speed, and then utilizing the blend function to generate a unique combined audio output.
+
 - **General Workflow:**  
-  Follow the installation steps, run the appropriate script or batch file, and interact with the UI or CLI as per your requirements.
+  Follow the installation steps, run the appropriate script or batch file, and interact with the UI (or CLI) as per your requirements.
 
 ## Troubleshooting
 
