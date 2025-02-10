@@ -5,5 +5,4 @@ model/*
 output/*
 !output/.gitkeep
 activate*
-.python-version
-pyproject.toml
+__pycache__/
